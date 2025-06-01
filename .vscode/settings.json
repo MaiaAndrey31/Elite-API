@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.semi": false,
+    "prettier.singleQuote": true
+}

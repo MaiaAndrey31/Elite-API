@@ -1,0 +1,43 @@
+{
+  "type": "module",
+  "name": "elite-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "keywords": [
+    "api",
+    "elite",
+    "tracker",
+    "typescript",
+    "express",
+    "mongoose",
+    "mongodb"
+  ],
+  "author": {
+    "name": "Andrey Maia",
+    "url": "https://github.com/MaiaAndrey31"
+  },
+  "license": "ISC",
+  "description": "API para o Elite Tracker",
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "@types/express": "^5.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.33.0",
+    "@typescript-eslint/parser": "^8.33.0",
+    "eslint": "^9.28.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.1",
+    "globals": "^16.2.0",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
